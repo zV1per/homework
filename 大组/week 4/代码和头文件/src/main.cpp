@@ -13,7 +13,7 @@ int main()
 	while (true)
 	{
 		cout << "1:init   2:insert    3:delete    4:search\n5:preorder   6:inorder    7:postorder 8:postorder" << endl;
-		cin.get() >> choice;
+		choice = getchar();
 		switch (choice)
 		{
 		case '1':
